@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/venturahimself
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://venturahimself.github.io
+  * I am venturahimself (https://keybase.io/venturahimself) on keybase.
+  * I have a public key with fingerprint C82C B4D8 E6D5 F82F 60B0  D3E9 EE86 C840 1608 C3A8
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120905a06dbb2fd616a917dc3f0392089054d73f4a065ed7fc8f66e97c6abc915440a",
+      "fingerprint": "c82cb4d8e6d5f82f60b0d3e9ee86c8401608c3a8",
+      "host": "keybase.io",
+      "key_id": "ee86c8401608c3a8",
+      "kid": "0101887ee21aa49a0143847f97645ceb0e3e96ef8645c3e9f0b0934302c933d2f2070a",
+      "uid": "01622598710ce7fdecf92425d48f7b19",
+      "username": "venturahimself"
+    },
+    "service": {
+      "hostname": "venturahimself.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1617191525,
+  "expire_in": 157680000,
+  "prev": "87681dce4ace8ceb1b3792536cb40ef25e6ff7bdb782f5c8534009f5e573f665",
+  "seqno": 222,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMN1AnicbVJtUFRVGAY0BEQIAlEHa/aKCLjRud/3AhIC0yTjiDKlpsR2P87dvQPs
+rrvLyg4ffhCQozMUlBFIbkDGUNlMMjRJmWAChvI1xdikMCGafChQbUlT1Lmk/zx/
+znnPed7nfZ73Pd+uWuYV4H2/ojdltd+lFu++zo8LvF6TRViEiRbZhSUUYblwaYN5
+MrQ7DLmqjCVgACcAD2gBMLIoEorM4IzA46wskQogeQJw6JGSWVKhEISGMqtInMIw
+kGclRhAlHqcpCgiYHlNUsxHarDbV7EC0EkdIIiVzkJFphSMUBohAJiEPIcdIHAVw
+BnASKXAo0WSxaxlInCjYYbxqQXcoMCzJewz+kW6AcxwLIYELAsULAKdIjmIVnmUo
+WoIigKgaAxVOC9FRQQJ4kiIBIfEkKRMKAdgl3QUP6RiCoHmOxYEEWUWGksITFEHL
+FKewIs5rQDu0mYV8iNBOaHYU2ASTmm+HeQpWosfQm1OVoNZezc9jcfFG1WEqEP93
+aLVZHBbJkodQJofDak/QWBwuq5Z2EIqGh4QGUTXLqLMowwltdtVixhJwhJQcqlYB
+Z3AWRzMgaD0GC62qDRpUDUGzDAfQ0upAJ6Lk0AUuS5ASJMih9uAiyfIETTJoSgAq
+BA0ZBRmVRRYNi5Y4mqQA4BUa0mj0DENjmsUDZguWQBAEEioYEaldNZoFZBBiJV2d
+2cu9vAO8fJ/w0f6cV4D/k49+4rApeDEubXbxubBhu2fiEymqvTHa3eWTkzdzIGs4
+Ul+7p/m8B3+TXTNSnFIdGbZ1qjn4paCxZdn07sb0B1P9aaT196qtZTXuafrdobLc
+Zssx310hvy1s2LWiPuRs+/6Gha7vjj24sC7q+mi0OSWu/Fz3O9/ktDXN3wPslPfs
+szVbsr6Y0U+A4NbagYsLg/kHf+6/9U+rp3EopvR+xs7VKbdd4S+OFPed8XN2cyfd
+I5+fjyCPEINcT1+QO/pTY39ZgbIS+OXoWqpvrhwy1d85O7Pm8iveseP25roz7sH4
+8GS3A6ROnCiJ2RZ1fKL2J79NxivVPl/3Rsw1XH/eNWKbH9oee3xzln6jK3khJeat
+6s7Mv30ry+Hi/nNBT8WVup6msTu60aOtTT35sRlJF7oHZzs9+JXMqw6ipywj6QXr
+6YDIvTtma6fXj/UGvnckaXx7emHd1LXvA0W9mp1IXtsWUdl3avJwKj9464+Ol9t3
+7xv7Cnf+4NPyl1/4B3+ufTv919dzwy51ZL3/0e21NyYDbx4aTz7h6jr9hn/DWERr
+feXGjsTNy4Pb+j9Ur077z6/QVQwMG4vLLk61Hd2SGXIvdO9ndytKGzeEj3nScqjm
+kD2n9h0qD11FV93NF8TRnRnhlyN+TP1S5xl45tXCuU26dcnBxvWTc0WhNTeidzTF
+TmR1/ZJoOFxFnhT0eU1BI//W/Qcg1cdP
+=+vl2
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/venturahimself
+
+==================================================================
