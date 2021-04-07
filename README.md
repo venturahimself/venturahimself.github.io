@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/venturahimself/venturahimself.github.io/main/venturahimself.github.logo.png)
+[![Header Image](https://raw.githubusercontent.com/venturahimself/venturahimself.github.io/main/venturahimself.github.logo.png)](https://venturahimself.github.io)
 
 https://venturahimself.github.io/
 
