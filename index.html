@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07080d">
+  <meta name="description" content="Ventura Himself — GitHub projects and stats.">
+  <meta property="og:title" content="Ventura Himself // GitHub Pages">
+  <meta property="og:description" content="Projects and live stats from GitHub.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <title>Ventura Himself // GitHub Pages</title>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Ventura Himself home">
+      <img src="logo.svg" alt="" class="brand-mark">
+      <span class="brand-text">VENTURA HIMSELF<span class="cursor">_</span></span>
+    </a>
+
+    <div class="top-status">
+      <span class="dot"></span>
+      <span id="api-status">CONNECTING</span>
+    </div>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Toggle navigation</span>
+    </button>
+
+    <nav id="site-nav" class="nav">
+      <a href="#repos">REPOSITORIES</a>
+      <a href="#activity">ACTIVITY</a>
+      <a href="#github">GITHUB</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero section">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="prompt">$</span> root</div>
+        <h1 data-text="VENTURA HIMSELF">VENTURA<br>HIMSELF<span class="blink">_</span></h1>
+        <p class="hero-sub" id="bio">github <i>•</i> code <i>•</i> projects</p>
+
+        <div class="terminal terminal-intro">
+          <div class="terminal-bar">
+            <span class="terminal-light"></span>
+            <span class="terminal-light"></span>
+            <span class="terminal-light"></span>
+            <span class="terminal-title">session://venturahimself</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="cyan">$</span> gh api venturahimself</p>
+            <p class="muted" id="term-state">fetching profile...</p>
+            <p><span class="green">[OK]</span> repos: <strong id="t-repos">–</strong></p>
+            <p><span class="green">[OK]</span> stars: <strong id="t-stars">–</strong></p>
+            <p><span class="green">[OK]</span> followers: <strong id="t-followers">–</strong></p>
+            <p><span class="cyan">$</span> <span id="type-target"></span><span class="type-cursor">█</span></p>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#repos">REPOSITORIES <span>→</span></a>
+          <a class="btn btn-ghost" href="https://github.com/venturahimself" rel="noopener">GITHUB <span>↗</span></a>
+        </div>
+      </div>
+
+      <aside class="hero-hud" aria-label="GitHub stats">
+        <div class="hud-corner hud-tl"></div>
+        <div class="hud-corner hud-tr"></div>
+        <div class="hud-corner hud-bl"></div>
+        <div class="hud-corner hud-br"></div>
+
+        <div class="hud-label">GITHUB // STATS</div>
+        <div class="hud-big" id="hud-repos">–</div>
+        <div class="hud-sub">PUBLIC REPOSITORIES</div>
+
+        <div class="hud-row"><span>STARS</span><strong class="cyan" id="hud-stars">–</strong></div>
+        <div class="hud-row"><span>FOLLOWERS</span><strong class="cyan" id="hud-followers">–</strong></div>
+        <div class="hud-row"><span>FOLLOWING</span><strong class="cyan" id="hud-following">–</strong></div>
+        <div class="hud-row"><span>MEMBER SINCE</span><strong class="green" id="hud-since">–</strong></div>
+        <div class="hud-row"><span>LAST PUSH</span><strong class="green" id="hud-push">–</strong></div>
+
+        <div class="hud-foot">
+          <span>LOCAL TIME</span>
+          <span id="clock">--:--:--</span>
+        </div>
+      </aside>
+    </section>
+
+    <section id="repos" class="section">
+      <div class="section-heading">
+        <span class="section-index">01</span>
+        <div>
+          <div class="eyebrow">REPOSITORIES</div>
+          <h2>Things worth compiling.</h2>
+        </div>
+      </div>
+
+      <div class="project-grid" id="repo-grid">
+        <p class="empty">Loading repositories…</p>
+      </div>
+    </section>
+
+    <section id="activity" class="section">
+      <div class="section-heading">
+        <span class="section-index">02</span>
+        <div>
+          <div class="eyebrow">ACTIVITY</div>
+          <h2>Recent commits.</h2>
+        </div>
+      </div>
+
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="terminal-light"></span>
+          <span class="terminal-light"></span>
+          <span class="terminal-light"></span>
+          <span class="terminal-title">github://events/public</span>
+        </div>
+        <div class="terminal-body diagnostics" id="activity-list">
+          <p class="muted">Loading activity…</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="github" class="section contact-section">
+      <div class="contact-box">
+        <div>
+          <div class="eyebrow">03 // GITHUB</div>
+          <h2>See the code.</h2>
+          <p>Everything lives on GitHub — repositories, issues and the rest.</p>
+        </div>
+        <a class="contact-link" href="https://github.com/venturahimself" rel="noopener">
+          <span>github.com/venturahimself</span>
+          <strong>↗</strong>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><span class="cyan">echo</span> "Ventura Himself"</div>
+    <div>VENTURA HIMSELF // <span id="year"></span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

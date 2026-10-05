@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="50" y1="40" x2="460" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#48E7FF"/>
+      <stop offset=".5" stop-color="#9D5CFF"/>
+      <stop offset="1" stop-color="#FF3FC7"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="18" y="18" width="476" height="476" rx="82" fill="#07080D" stroke="url(#g)" stroke-width="4"/>
+  <path d="M74 146V86H134M378 86H438V146M438 366V426H378M134 426H74V366"
+        stroke="#48E7FF" stroke-width="5" opacity=".75"/>
+  <!-- V -->
+  <path d="M96 170L168 350L240 170"
+        stroke="url(#g)" stroke-width="28" stroke-linecap="square" stroke-linejoin="miter" filter="url(#glow)"/>
+  <path d="M96 170L168 350L240 170"
+        stroke="#EAFBFF" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter"/>
+  <!-- H -->
+  <path d="M290 170V350M416 170V350M290 260H416"
+        stroke="#FF3FC7" stroke-width="7"/>
+  <circle cx="96" cy="96" r="5" fill="#65FFAD"/>
+  <circle cx="416" cy="416" r="5" fill="#65FFAD"/>
+</svg>
